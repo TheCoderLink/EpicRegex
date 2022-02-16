@@ -5,6 +5,8 @@ public class MainMethod
         regex ip = new regex();
 
         ip.setIpAddress("");
+        ip.setPortNumber("");
         System.out.println(ip.getIpAddress());
+        System.out.println(ip.getPortNumber());
     }
 }
